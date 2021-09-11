@@ -5,9 +5,9 @@ import LoginRouter from "./routers/LoginRouter";
 const App = () => {
   return (
     <>
-      <PromiseMap />
-      {/* <hr />
-      <LoginRouter /> */}
+      {/* <PromiseMap />
+      <hr /> */}
+      <LoginRouter />
     </>
   );
 };
