@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 
-const PromiseMap = () => {
+const PromiseMapScreen = () => {
   const [response, setResponse] = useState([]);
   const [loading, setLoading] = useState(false);
 
@@ -54,7 +54,7 @@ const PromiseMap = () => {
 
   return (
     <>
-      <h1>Uso de Promesa Arreglos Map async/await </h1>
+      <h1>Uso de Promesa - Map async/await </h1>
       <hr />
       {loading && (
         <div className="d-flex justify-content-center">
@@ -93,4 +93,4 @@ const PromiseMap = () => {
   );
 };
 
-export default PromiseMap;
+export default PromiseMapScreen;

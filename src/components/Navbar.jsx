@@ -57,6 +57,14 @@ const Navbar = () => {
             </li>
           </ul>
           <div className="d-flex">
+            <NavLink
+              activeClassName="active text-white"
+              className="nav-link"
+              aria-current="page"
+              to="/promise"
+            >
+              Promise-map
+            </NavLink>
             <button className="btn btn-danger" onClick={handleLogout}>
               Logout
             </button>
