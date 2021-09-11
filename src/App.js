@@ -8,6 +8,7 @@ import { AuthReducer } from "./reducers/AuthReducer";
 const init = () => {
   return JSON.parse(localStorage.getItem("log")) || { log: false };
 };
+
 const App = () => {
   const [log, dispatch] = useReducer(AuthReducer, {}, init);
 
