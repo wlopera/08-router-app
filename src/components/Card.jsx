@@ -4,8 +4,6 @@ import { Link } from "react-router-dom";
 const Card = ({ id, name, type }) => {
   const path = `/assets/${type}-${id}.png`;
 
-  console.log(path);
-
   return (
     <div className="card m-3 col-12 col-md-4" style={{ width: "200px" }}>
       <img className="card-img-top" src={path} alt={id} />

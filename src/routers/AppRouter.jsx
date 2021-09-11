@@ -18,10 +18,12 @@ const AppRouter = () => {
         <Route exact path="/men" component={MenScreen}></Route>
         <Route exact path="/women" component={WomenScreen}></Route>
         <Route exact path="/search" component={SearchScreen}></Route>
+
         <Route exact path="/character/:id" component={CharacterScreen}></Route>
+
         <Route exact path="/promise" component={PromiseMapScreen}></Route>
 
-        {/* <Redirect to="/men" /> */}
+        <Redirect to="/men" />
       </Switch>
     </>
   );
