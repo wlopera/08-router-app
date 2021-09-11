@@ -6,8 +6,8 @@ const App = () => {
   return (
     <>
       <PromiseMap />
-      <hr />
-      <LoginRouter />
+      {/* <hr />
+      <LoginRouter /> */}
     </>
   );
 };
